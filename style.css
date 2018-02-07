@@ -1,0 +1,119 @@
+
+.movie-img {
+width: 225px;
+border-radius: 20px;
+}
+
+.destination-img{
+width: 225px;
+border-radius: 20px;
+height: 250px;
+}
+
+#profile-pic {
+  width: 200px;
+}
+
+.profile-section{
+  background-color: #62A7A5;
+}
+
+.text-centered{
+  text-align: center;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card{
+  border-radius: 20px;
+  box-shadow: rgba(0 0 0 0.1);
+  background: #62A7A5;
+  margin:10px;
+  padding:0px;
+  align-items: flex-start;
+}
+
+.list-align-centered li{
+  display: inline;
+}
+.list-align-centered ul{
+  padding:5px;
+}
+
+.film-description{
+  background-color: #357DA3;
+  margin: 10px;
+}
+
+.destination-description{
+  background-color: #357DA3;
+  margin: 10px;
+  font-size: 20px;
+}
+
+a {
+  color:#387E4D;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#357DA3;
+}
+
+body {
+  font-family: 'Nanum Pen Script', cursive;
+  color: #E3DFDB;
+  font-size: 20px ;
+  line-height: 20px ;
+grid-row: auto auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Rammetto One', cursive;
+  color: #E3DFDB;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+table {
+   background-color:#62A7A5 ;
+   border-radius: 20px;
+}
+
+table td{
+  border-radius: 20px;
+  background-color: lightblue;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
