@@ -68,7 +68,7 @@ body {
   color: #E3DFDB;
   font-size: 20px ;
   line-height: 20px ;
-grid-row: auto auto;
+  background-image: url("images/IMG_0610.jpeg")!important;
 }
 
 h1, h2, h3 {
