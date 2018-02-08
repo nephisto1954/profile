@@ -1,4 +1,12 @@
 
+.background-attachment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
 .movie-img {
 width: 225px;
 border-radius: 20px;
@@ -68,7 +76,7 @@ body {
   color: #E3DFDB;
   font-size: 20px ;
   line-height: 20px ;
-  background-image: url("images/IMG_0610.jpeg")!important;
+  /*background-image: url("images/IMG_0610.jpeg")!important;*/
 }
 
 h1, h2, h3 {
